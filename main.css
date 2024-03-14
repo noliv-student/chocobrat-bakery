@@ -78,12 +78,13 @@ input[type="search"]{
 header {
   background: linear-gradient(to right, #ffffff, #fffdff, #fffcfd, #fffaf9, #fff9f5, #fef7ef, #fbf5e9, #f7f3e3, #f4efd9, #f1ebcf, #eee7c5, #ebe3bb);
 }
+
 #banner {
   display: flex;
   height: 300px;
-  /* background: url(""), 
-      linear-gradient(to right, #ffffff, #fffdff, #fffcfd, #fffaf9, #fff9f5, #fef7ef, #fbf5e9, #f7f3e3, #f4efd9, #f1ebcf, #eee7c5, #ebe3bb); */
-  background-position: right;
+  background: url("./assets/imgs/chocolatecake-big-new.png"), 
+      linear-gradient(to right, #ffffff, #fffdff, #fffcfd, #fffaf9, #fff9f5, #fef7ef, #fbf5e9, #f7f3e3, #f4efd9, #f1ebcf, #eee7c5, #ebe3bb);
+  background-position: right, top right;
   background-repeat: no-repeat;
   background-size: 300px, 100%;
 }
@@ -117,7 +118,7 @@ header {
   padding: 15px;
   display: flex;
   gap: 5px;
-  margin-bottom: 20px;
+  margin-top: 20px;
   overflow-x: auto;
   align-items: center;
 }
@@ -133,7 +134,7 @@ header {
 
 .gallery img {
   height: 100px;
-  width: 150px;
+  width: 125px;
   border-radius: 5px;
   object-fit: cover;
 }
@@ -159,6 +160,35 @@ header {
   background-color: #4a1d1f;
   color: white;
   margin-right: 10px;
+}
+
+/* Best Sellings Styling*/
+.best-sellings {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 200px;
+  gap: 10px;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.best-sellings h2 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #4a1d1f;
+  text-wrap: nowrap;
+}
+
+.best-sellings .divider {
+  height: 100px;
+  border: 1px solid #4a1d1f;
+}
+
+.best-sellings p {
+  font-size: 20px;
+  line-height: 30px;
+  width: 60%;
 }
 
 /* Section 2 Styling*/
@@ -204,6 +234,7 @@ header {
 
 .flexbox-2 > a {
   border: solid 1.5px #4a1d1f;
+  color: #4a1d1f;
   border-radius: 5px;
   padding: 10px 20px;
   margin-top: 15px;
@@ -249,6 +280,27 @@ header {
     max-width: 650px;
     border-radius: 30px;
     height: 370px;
+}
+
+/* Section 2 Styling*/
+#contact {
+  text-align: center;
+  padding: 50px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  background-color: #fbedcd;
+}
+
+#contact h2 {
+  font-size: 32px;
+  color: #4a1d1f;
+}
+
+#contact p {
+  font-size: 20px;
+  width: 60%;
 }
 
 /* Section 5 Styling*/
