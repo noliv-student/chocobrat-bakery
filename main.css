@@ -6,3 +6,69 @@
     text-decoration: none;
     list-style: none;
 }
+
+/* Navigation Style */
+.logo {
+    font-size: 30px;
+    color: #4a1d1f;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white;
+    align-items: center;
+    min-height: 100px;
+}
+
+.main-nav ul,
+.main-nav > div{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    fill: #4a1d1f;
+}
+
+/* Search Input style */
+input[type="search"]{
+    border: 1px solid #4a1d1f;
+    padding: 5px;
+    width: 200px;
+    height: 40px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    /* width: 200px; */
+}
+
+.search-bar button {
+    background-color: #4a1d1f ;
+    border: 0;
+    padding: 5px;
+    width: 30px;
+    height: 40px;
+}
+
+.search-bar svg{
+    fill: white;
+    width: 15px;
+    height: 15px;
+}
+/* Navigation Links Style */
+#current-page {
+    color: #4a1d1f;
+    font-weight: 700;
+}
+
+.main-nav a:visited,
+.main-nav a:link {
+    color: black;
+}
