@@ -7,6 +7,65 @@
   <link rel="stylesheet" href="./main.css" />
 </head>
 <body>
+    <nav class="main-nav" aria-label="main navigation">
+        <h1 class="logo">Chocobrat</h1>
+        <ul>
+            <li><a href="#" id="current-page">Home</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+        <div>
+            <div class="search-bar">
+                <input type="search" name="search bar" id="search" placeholder="Search">
+                <button title="search button" aria-label="search button">
+                    <svg aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/>
+                    </svg>
+                </button>
+            </div>
+
+            <a href="#" title="user icon" aria-label="user icon">
+                <svg class="icon" aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464H398.7c-8.9-63.3-63.3-112-129-112H178.3c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3z"/>
+                </svg>
+            </a>
+            <a href="#" title="view cart" aria-label="shopping cart">
+                <svg class="icon" aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/>
+                </svg>
+            </a>
+
+        </div>
+    </nav>
+
+    <header>
+        <section id="banner">
+            <div>
+                <h2 class="title">Bring your hapiness through a piece of cake</h2>
+                <p class="banner-text">We make Different type of cakes, chocolate, soft cookies, cheesecake pie or anything you want</p>
+                <nav>
+                    <a href="#" class="nav-brown">Order Now</a>
+                    <a href="#" class="nav-white">See all menus</a>
+                </nav>
+            </div>
+            <div class="gallery">
+                <p>← 01/<sup>12</sup> →</p>
+                <img src="./assets/imgs/cake1.jpg" alt="Vanilla cake">
+                <img src="./assets/imgs/cake2.jpg" alt="Cupcakes">
+                <img src="./assets/imgs/cake3.jpg" alt="Chocolate cake">
+            </div>
+        </section>
+        <section class="best-sellings">
+            <h2>Try Our Best Sellings</h2>
+            <div class="divider"></div>
+            <p>
+                Here's our best creations that everyone loves.
+                Ligtness and sweetness of the cake make you want more and more.
+                Start from cake, bread and other creations.
+            </p>
+        </section>
+    </header>
     <main>
       <!--Setion 2-->
       <div class="container-2">
@@ -68,71 +127,81 @@
       </div>
       
       <!-- Baking Layout -->
-    <section class="baking-group">
-        <div class="baking-left">
-            <div>
-                <h2>We Bake for you <br>Fresh From the oven</h2>
-                <p>We use quallty marterials Lorem ipsum dolor sit amet consectetur,<br>
-                    adipisicing elit. Magni, sit dicta ipsum deleniti enim amet in <br>
-                    omnis quibusdam unde suscipit voluptatibus quas harum dolores repellendus <br>
-                    ipsam cum voluptate quaerat aliquid.</p>
-                <br>
-                <br>
-                <p class="more">Read More &#8594</p>
+        <section class="baking-group">
+            <div class="baking-left">
+                <div>
+                    <h2>We Bake for you <br>Fresh From the oven</h2>
+                    <p>We use quallty marterials Lorem ipsum dolor sit amet consectetur,<br>
+                        adipisicing elit. Magni, sit dicta ipsum deleniti enim amet in <br>
+                        omnis quibusdam unde suscipit voluptatibus quas harum dolores repellendus <br>
+                        ipsam cum voluptate quaerat aliquid.</p>
+                    <br>
+                    <br>
+                    <p class="more">Read More &#8594</p>
 
+                </div>
+                <img src="./Asset/baking.jpg" alt="baking">
             </div>
-            <img src="./Asset/baking.jpg" alt="baking">
-        </div>
-        <div class="baking-right">
-            <img src="./Asset/baking.jpg" alt="baking">
-            <div>
-                <h2>Come and choose <br>your favorites</h2>
-                <p>We use quallty marterials Lorem ipsum dolor sit amet consectetur,<br>
-                    adipisicing elit. Magni, sit dicta ipsum deleniti enim amet in <br>
-                    omnis quibusdam unde suscipit voluptatibus quas harum dolores repellendus <br>
-                    ipsam cum voluptate quaerat aliquid.</p>
-                <br>
-                <br>
-                <p class="more">Read More</p>
+            <div class="baking-right">
+                <img src="./Asset/baking.jpg" alt="baking">
+                <div>
+                    <h2>Come and choose <br>your favorites</h2>
+                    <p>We use quallty marterials Lorem ipsum dolor sit amet consectetur,<br>
+                        adipisicing elit. Magni, sit dicta ipsum deleniti enim amet in <br>
+                        omnis quibusdam unde suscipit voluptatibus quas harum dolores repellendus <br>
+                        ipsam cum voluptate quaerat aliquid.</p>
+                    <br>
+                    <br>
+                    <p class="more">Read More &#8594</p>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+      <!--Setion 4-->
+        <section id="contact">
+            <h2>For Cake Orders above 1KG</h2>
+            <p>
+                Please visit our nearest store or call us on +91 00 00 00 
+                (<time datetime="10am">10 AM</time> to <time datetime="7pm">7 PM</time>) to place your orders.
+            </p>
+            <a href="#" class="nav-brown">Contact Us Now</a>
+        </section>
 
       <!--Setion 5-->
-      <div class="container-5">
+        <div class="container-5">
         <aside>
-          <img
+            <img
             id="quote-left"
             src="./assets/imgs/quote-left.png"
             alt="double-quote"
-          />
+            />
         </aside>
         <aside>
-          <img
+            <img
             id="quote-right"
             src="./assets/imgs/quote-left.png"
             alt="double-quote"
-          />
+            />
         </aside>
         <div class="label">
-          <p>QUOTES</p>
+            <p>QUOTES</p>
         </div>
         <div class="recommendation">
-          <p>the eggless cakes here are really good.</p>
-          <p>Had ordered a kit cake which was</p>
-          <p>really good. Surely worth a try.</p>
+            <p>the eggless cakes here are really good.</p>
+            <p>Had ordered a kit cake which was</p>
+            <p>really good. Surely worth a try.</p>
         </div>
         <div class="ceo">
-          <img
+            <img
             class="ceo-img"
             src="./assets/imgs/ceo.jpg"
             alt="Darren Dunlap"
-          />
-          <p class="ceo-name">Darren Dunlap</p>
-          <p class="ceo-info">CEO & Founder at Flex.co</p>
-          <p class="circle1">● <span class="circle2">●</span> ●</p>
+            />
+            <p class="ceo-name">Darren Dunlap</p>
+            <p class="ceo-info">CEO & Founder at Flex.co</p>
+            <p class="circle1">● <span class="circle2">●</span> ●</p>
         </div>
-      </div>
+        </div>
     </main>
     <footer>
         <div class="footer-uppermenu">
@@ -150,7 +219,7 @@
         <div class="horizonal-line"></div>
 
         <div class="footer-undermenu">
-            <p class="mywebpage" style="font-family: 'Times New Roman', Times, serif, sans-serif">
+            <p class="mywebpage">
                 &copy; 2021 Chocobrat All rights reserved
             </p>
             <ul class="footer-ikon">
