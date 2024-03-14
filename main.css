@@ -65,6 +65,23 @@
   flex-direction: column;
   margin-top: 50px;
   margin-bottom: 50px;
+  position: relative;
+}
+
+#quote-left {
+  position: absolute;
+  top: 0px;
+  left: 260px;
+  width: 7%;
+  z-index: -1;
+}
+
+#quote-right {
+  position: absolute;
+  bottom: 130px;
+  right: 280px;
+  transform: rotate(-180deg);
+  width: 7%;
 }
 .label {
   background-color: #fbedcd;
@@ -72,6 +89,7 @@
   border-radius: 15px;
   padding: 3px;
   font-size: 10px;
+  margin-bottom: 20px;
 }
 
 .recommendation {
